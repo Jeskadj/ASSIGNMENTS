@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.wholepage2{
+    background-color:#83c5be ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.formitself2{
+    display: flex;
+    justify-content:center;
+    background-color: #e29578;
+    height: 300px;
+    width: 300px;
+}
+
+.inputareas2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wholepage{
+    background-image: url('./seablue.jpeg');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.formitself{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+.inputareas{
+    background-color: white ;
+    height: 500px;
+    width: 400px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    font-style: oblique;
+    font-family: serif;
+}
+
+.buttonarea{
+    justify-self: center;
+}
+.inputfields{
+    flex-direction: column;
+    display: flex;
+    flex: 0.3;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.buttonlink{
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+    justify-content: flex-start;
+    margin-top: 0;
+    align-items: center; 
+    
+}
+.greeting{
+    display: flex;
+    flex-direction: column;
+    flex: 0.4;
+    justify-content: center;
+    align-items: center;
+    font-style: oblique;
+    font-family: serif;
+    
+}
+/* .introclass{
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+    justify-content: center;
+
+}
+.inputfields2{
+    display: flex;
+    flex-direction: column;
+    flex: 0.7;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+
+} */
+
+
+@media screen and (max-width:570px){
+    .formitself2{
+        display: flex;
+        justify-content:center;
+        background-color:#006d77;
+        height: 300px;
+        width: 300px;
+    }
+
+    .wholepage2{
+        background-color:#ffddd2 ;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+}
+
+
+
+
+
+
+

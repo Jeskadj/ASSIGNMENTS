@@ -1,0 +1,6 @@
+.accountclass:hover{
+    color: tomato;
+}
+.accountclass:focus{
+    color: yellowgreen;
+}

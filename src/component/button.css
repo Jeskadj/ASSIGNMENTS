@@ -1,0 +1,7 @@
+.buttonclass:hover{
+    color:red;
+}
+
+.buttonclass:focus{
+    color: seagreen;
+}
